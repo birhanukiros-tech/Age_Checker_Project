@@ -9,7 +9,7 @@ if (userAge < 18) {
 } else if (userAge >= 18 && hasDrivingLicense === false) {
     // 18 or older, but NO license
     console.log("you are older enough, but you need to get a driving liense first.");
-} else if (userAge >= 18 hasDrivingLicense === true) {
+} else if (userAge >= 18 && hasDrivingLicense === true) {
     //18 or older AND has a license
     console.log("Great! you are allowed to drive.");
 } else {
