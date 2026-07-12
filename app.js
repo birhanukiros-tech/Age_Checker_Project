@@ -16,3 +16,4 @@ if (userAge < 18) {
     // A final fallback Just in case none of the above match
     console.log("invalid input.");
 }
+// This line was added from GitHub online!
